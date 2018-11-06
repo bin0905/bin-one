@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-size: 14px;
+    cursor: pointer;
+    font-family: "STKaiti";
+    background-color: #f1f2f6;
+}
+
+.inner {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*================header*/
+header {
+    /*background-color: black;*/
+    height: 120px;
+    background: url("../images/bg_01.png");
+}
+
+nav > ul > li {
+    float: left;
+    line-height: 120px;
+    margin: 0 20px;
+    position: relative;
+    font-weight: bolder;
+    color: rgb(254, 254, 254);
+
+}
+
+nav > ul > li img {
+    vertical-align: middle;
+}
+
+.layer {
+    position: absolute;
+    top: 80px;
+    left: -20px;
+    /*border: 1px solid black;*/
+    color: black;
+    line-height: 30px;
+    display: none;
+    z-index: 999;
+}
+
+.layer ul li {
+    font-weight: 100;
+    width: 140px;
+    text-indent: 1em;
+    background-color: black;
+    font-size: 12px;
+    transition: 0.5s;
+    color: white;
+}
+
+.layer ul li.hover {
+    background-color: pink;
+    text-indent: 2em;
+    color: black;
+}
+
+.layer .right {
+    float: right;
+    display: none;
+    color: white;
+    margin-right: 10px;
+}
+
+/*=================================article*/
+article {
+    height: 1700px;
+    z-index: 100;
+}
+article .inner{
+    background-color: #fff;
+
+}
+.content {
+    width: 780px;
+    margin: 0 auto;
+    position: relative;
+    height: 1800px;
+}
+
+article .top {
+    text-align: center;
+}
+
+.top h1 {
+    font-size: 54px;
+    font-family: "STKaiti";
+    color: rgb(49, 24, 89);
+    line-height: 0.296;
+    margin-top: 100px;
+}
+
+.top p {
+    font-size: 18px;
+    font-family: "Arial";
+    color: rgb(49, 24, 89);
+    line-height: 0.889;
+    margin-top: 30px;
+    letter-spacing: 5px;
+}
+
+.top ul {
+    width: 90px;
+    margin: 20px auto 0;
+}
+
+.top ul li {
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    float: left;
+    margin: 10px;
+    background: rgba(64, 147, 224, 1);
+    /*background-color: red;*/
+}
+.mid{
+    margin-top: 50px;
+}
+.mid h3 {
+    font-size: 30px;
+    color: rgb(49, 24, 89);
+    height: 30px;
+    border-bottom: 2px solid #d7d3dd;
+    padding-bottom: 20px;
+    position: relative;
+}
+.mid h3 img{
+    position: absolute;
+    right: -50px;
+    bottom: -1px;
+}
+.mid .gl{
+    margin: 10px 0 30px;
+    font-size: 14px;
+    color: rgb( 107, 106, 111 );
+    width: 109px;
+    height: 13px;
+    line-height: 1.714;
+}
+.mid_text{
+    color: rgb( 71, 70, 74 );
+}
+.mid_text h6{
+    font-size: 24px;
+}
+.mid_text p{
+    font-size: 16px;
+    text-indent: 2em;
+}
+.hert_box{
+    height: 73px;
+    width: 240px;
+    /*background: blue;*/
+    margin:  50px auto 0;
+}
+.hert{
+    background: url("../imgs/article_iflike.png") no-repeat;
+    width: 73px;
+    height: 73px;
+}
+.hert:hover{
+    background-position:0 -73px ;
+}
+.hert_text{
+    width: 126px;
+    height: 35px;
+    background: #2999d6;
+    margin: 20px 20px;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+    position: relative;
+    font-size: 18px;
+}
+.hert_text:before{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-right:10px solid #2999d6 ;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left: -20px;
+}
+.nnww{
+    font-size: 24px;
+    color: rgb( 49, 24, 89 );
+    width: 255px;
+    height: 81px;
+    border-radius: 10px;
+    line-height: 81px;
+    text-align: center;
+    background-color: #f1f2f6;
+    margin: 30px auto   ;
+}
+/*=========================footer*/
+
+.art8 {
+    background: url("../images/bg_06.png") no-repeat top center;
+    margin-top: -33px;
+    padding-top: 60px;
+    height: 321px;
+    z-index: 999;
+    position: relative;
+}
+.art8 .inner{
+
+}
+.art8 .shang {
+    width: 50px;
+    height: 50px;
+    margin-right: -67px;
+    background: url("../imgs/scroll_top_bg.png");
+    background-position: 0 0;
+}
+
+.art8 .art8-middle {
+    margin: 25px 0 75px 0;
+    position: relative;
+}
+
+.art8 .art8-middle ul {
+    height: 88px;
+    width: 565px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.art8 .art8-middle ul li {
+    width: 57px;
+    height: 57px;
+    float: left;
+    margin-right: 27px;
+    background-position: 0 0;
+}
+
+.art8 .art8-middle ul li:last-of-type {
+    margin-right: 0;
+}
+
+.art8 .art8-middle ul li:hover {
+    width: 57px;
+    height: 57px;
+    background-position: 0 -57px;
+}
+
+.li1 {
+    background: url("../imgs/yinyue_duo.png");
+}
+
+.li2 {
+    background: url("../imgs/yinyue_lai.png");
+}
+
+.li3 {
+    background: url("../imgs/yinyue_mi.png");
+}
+
+.li4 {
+    background: url("../imgs/yinyue_fa.png");
+}
+
+.li5 {
+    background: url("../imgs/yinyue_suo.png");
+}
+
+.li6 {
+    background: url("../imgs/yinyue_la.png");
+}
+
+.li7 {
+    background: url("../imgs/yinyue_xi.png");
+}
+
+.contactus {
+    position: absolute;
+    right: -85px;
+    top: 0;
+}
